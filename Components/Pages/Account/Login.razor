@@ -1,0 +1,118 @@
+﻿@page "/login"
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication.Cookies
+@using Microsoft.AspNetCore.Authentication;
+
+@inject UserService us;
+@inject NavigationManager nm;
+
+
+
+<div class="col-8" style="align-items:center;justify-content:center;">
+
+    <h3>Se connecter</h3>
+
+<EditForm Model="@loginDTO" OnValidSubmit="OnValidaSubmit" FormName="loginFrom">
+    <div >
+        @if(messageErrorUsername==null)
+            {
+                <label>Username</label>
+            }
+            else
+            {
+                <label style="color:red;">@messageErrorUsername</label>
+            }
+
+
+        
+        <InputText @bind-Value="loginDTO.UserName" />
+    </div>
+
+  <div>
+            @if (messageErrorpasseWord == null)
+            {
+                <label>PassWord</label>
+            }
+            else
+            {
+                <label style="color:red;">@messageErrorpasseWord</label>
+            }
+        <InputText @bind-Value="loginDTO.PassWord" />
+  </div>
+
+  <div>
+      <button onCl >Valider</button>
+  </div>
+    
+</EditForm>
+
+</div>
+
+@code {
+    [CascadingParameter]
+    public HttpContext  httpContext { get; set; }
+
+    [SupplyParameterFromForm]
+
+    private LoginDTO loginDTO { get; set; } = new LoginDTO();
+
+    private string messageErrorUsername { get; set; } = string.Empty;
+    private string messageErrorpasseWord { get; set; } = string.Empty;
+
+
+
+    private async Task OnValidaSubmit()
+    {
+
+
+        var users = await us.GetAllUsers();
+        var userConnected = users.Where(User => User.UserName == loginDTO.UserName).FirstOrDefault();
+
+        if (userConnected == null)
+        {
+            messageErrorUsername = "";
+            messageErrorUsername = "Aucun utilisateur n'est trouvé avec ce nom";
+            return;
+        }
+
+        if(userConnected.PassWord != loginDTO.PassWord)
+        {
+            messageErrorpasseWord = "";
+            messageErrorpasseWord = "Le mot de passe est incorect";
+            return;
+        }
+
+
+
+        // revendications
+        var claims = new List<Claim>()
+        {
+            new Claim(ClaimTypes.Name,loginDTO.UserName),
+            new Claim(ClaimTypes.Role,userConnected.Role)
+        };
+
+        //indetification de claims
+
+        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+        //objectr principal de revendication
+
+        var principal = new ClaimsPrincipal(identity);
+
+        await httpContext.SignInAsync(principal);
+
+
+        nm.NavigateTo("/");
+
+
+
+    }
+
+
+    protected override void OnInitialized()
+    {
+        
+        base.OnInitialized();
+    }
+
+}

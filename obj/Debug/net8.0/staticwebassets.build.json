@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "Hash": "gdjQynoVEKl7bwddM8Uu6FVhInhDtNK5cR8skItveJc=",
+  "Source": "MyEntitySecurity",
+  "BasePath": "_content/MyEntitySecurity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyEntitySecurity\\wwwroot",
+      "Source": "MyEntitySecurity",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css",
+      "SourceId": "MyEntitySecurity",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "RelativePath": "MyEntitySecurity.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "m2etom2mmq",
+      "Integrity": "frx7AodCoAhU5x/iwBtoQajjW90g6Xj/adVwqCcwS3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css"
+    },
+    {
+      "Identity": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
+      "SourceId": "MyEntitySecurity",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "RelativePath": "MyEntitySecurity.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "m2etom2mmq",
+      "Integrity": "frx7AodCoAhU5x/iwBtoQajjW90g6Xj/adVwqCcwS3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\app.css",
+      "SourceId": "MyEntitySecurity",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "MyEntitySecurity",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "RelativePath": "bootstrap/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "MyEntitySecurity",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
+      "SourceId": "MyEntitySecurity",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "BasePath": "_content/MyEntitySecurity",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 06:13:12 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 06:13:12 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 06:13:12 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 06:13:12 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "MyEntitySecurity.bundle.scp.css",
+      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"frx7AodCoAhU5x/iwBtoQajjW90g6Xj/adVwqCcwS3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 23:24:54 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "MyEntitySecurity.styles.css",
+      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"frx7AodCoAhU5x/iwBtoQajjW90g6Xj/adVwqCcwS3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Nov 2024 23:24:54 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyEntitySecurity.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyEntitySecurity.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyEntitySecurity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyEntitySecurity.props",
+      "PackagePath": "build\\MyEntitySecurity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyEntitySecurity.props",
+      "PackagePath": "buildMultiTargeting\\MyEntitySecurity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyEntitySecurity.props",
+      "PackagePath": "buildTransitive\\MyEntitySecurity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
