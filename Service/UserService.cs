@@ -7,10 +7,10 @@ namespace MyEntitySecurity.Service
     public class UserService
     {
         public readonly DataContext dataContext;
-        private readonly PasswordHasher<object> _passwordHasher;
+        private readonly PasswordHasher<User> _passwordHasher;
         public UserService(DataContext dataContext) {
             this.dataContext = dataContext;
-            _passwordHasher = new PasswordHasher<object>();
+            _passwordHasher = new PasswordHasher<User>();
         }
 
         public async Task<List<User>> GetAllUsers()
@@ -27,7 +27,7 @@ namespace MyEntitySecurity.Service
                 var userFind = await dataContext.users.FirstOrDefaultAsync(u => u.Equals(user));
                 if (userFind != null)
                 {
-                    userFind.PassWord = _passwordHasher.HashPassword(null,NewPassWord);
+                    userFind.PassWord = _passwordHasher.HashPassword(user,NewPassWord);
                     await dataContext.SaveChangesAsync();
                     return userFind;
                 }
