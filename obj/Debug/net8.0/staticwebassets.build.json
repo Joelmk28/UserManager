@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gdjQynoVEKl7bwddM8Uu6FVhInhDtNK5cR8skItveJc=",
+  "Hash": "TmQTPPQLsBO6lqQAF/v25dNjF3wPfYtgSwq6UFnK56k=",
   "Source": "MyEntitySecurity",
   "BasePath": "_content/MyEntitySecurity",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MyEntitySecurity\\wwwroot",
       "Source": "MyEntitySecurity",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\",
       "BasePath": "_content/MyEntitySecurity",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css",
+      "Identity": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css",
       "SourceId": "MyEntitySecurity",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MyEntitySecurity",
       "RelativePath": "MyEntitySecurity.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "frx7AodCoAhU5x/iwBtoQajjW90g6Xj/adVwqCcwS3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css"
+      "OriginalItemSpec": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css"
     },
     {
-      "Identity": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
+      "Identity": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
       "SourceId": "MyEntitySecurity",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MyEntitySecurity",
       "RelativePath": "MyEntitySecurity.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "frx7AodCoAhU5x/iwBtoQajjW90g6Xj/adVwqCcwS3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css"
+      "OriginalItemSpec": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css"
     },
     {
-      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\app.css",
+      "Identity": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\app.css",
       "SourceId": "MyEntitySecurity",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\",
       "BasePath": "_content/MyEntitySecurity",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "MyEntitySecurity",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\",
       "BasePath": "_content/MyEntitySecurity",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "MyEntitySecurity",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\",
       "BasePath": "_content/MyEntitySecurity",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
+      "Identity": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
       "SourceId": "MyEntitySecurity",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\",
       "BasePath": "_content/MyEntitySecurity",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\app.css",
+      "AssetFile": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -202,7 +202,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -230,7 +230,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\c#\\web\\MyEntitySecurity\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -258,7 +258,7 @@
     },
     {
       "Route": "MyEntitySecurity.bundle.scp.css",
-      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
+      "AssetFile": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyEntitySecurity.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -279,14 +279,14 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 23:24:54 GMT"
+          "Value": "Mon, 18 Nov 2024 13:23:35 GMT"
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "MyEntitySecurity.styles.css",
-      "AssetFile": "D:\\C#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css",
+      "AssetFile": "D:\\c#\\web\\MyEntitySecurity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyEntitySecurity.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -307,7 +307,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 23:24:54 GMT"
+          "Value": "Mon, 18 Nov 2024 13:23:35 GMT"
         }
       ],
       "EndpointProperties": []

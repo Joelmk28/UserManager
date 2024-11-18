@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZwiaoKHN2c=",
+  "dgSpecHash": "KQTgCmam57M=",
   "success": true,
-  "projectFilePath": "D:\\C#\\web\\MyEntitySecurity\\MyEntitySecurity.csproj",
+  "projectFilePath": "D:\\c#\\web\\MyEntitySecurity\\MyEntitySecurity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joelm\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\joelm\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

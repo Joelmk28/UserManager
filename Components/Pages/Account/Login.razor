@@ -37,7 +37,7 @@
             {
                 <label style="color:red;">@messageErrorpasseWord</label>
             }
-        <InputText @bind-Value="loginDTO.PassWord" />
+        <InputText @bind-Value="loginDTO.PassWord" type="password"  />
   </div>
 
   <div>
@@ -52,6 +52,9 @@
     [CascadingParameter]
     public HttpContext  httpContext { get; set; }
 
+
+
+
     [SupplyParameterFromForm]
 
     private LoginDTO loginDTO { get; set; } = new LoginDTO();
@@ -65,44 +68,41 @@
     {
 
 
-        var users = await us.GetAllUsers();
-        var userConnected = users.Where(User => User.UserName == loginDTO.UserName).FirstOrDefault();
 
-        if (userConnected == null)
+
+
+        var ConnectionService = await us.ToLogin(loginDTO.UserName, loginDTO.PassWord);
+
+        if (ConnectionService.Item1 !=null && ConnectionService.Item3)
         {
-            messageErrorUsername = "";
-            messageErrorUsername = "Aucun utilisateur n'est trouvé avec ce nom";
+            // revendications
+            var claims = new List<Claim>()
+                {
+                    new Claim(ClaimTypes.Name,loginDTO.UserName),
+                    new Claim(ClaimTypes.Role,ConnectionService.Item1.Role)
+                };
+
+            //indetification de claims
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+            //objectr principal de revendication
+
+            var principal = new ClaimsPrincipal(identity);
+
+            await httpContext.SignInAsync(principal);
+
+            //messageErrorUsername = ConnectionService.Item2;
+            //return;
+            nm.NavigateTo("/");
+        }
+        else
+        {
+            messageErrorUsername = ConnectionService.Item2;
             return;
         }
 
-        if(userConnected.PassWord != loginDTO.PassWord)
-        {
-            messageErrorpasseWord = "";
-            messageErrorpasseWord = "Le mot de passe est incorect";
-            return;
-        }
-
-
-
-        // revendications
-        var claims = new List<Claim>()
-        {
-            new Claim(ClaimTypes.Name,loginDTO.UserName),
-            new Claim(ClaimTypes.Role,userConnected.Role)
-        };
-
-        //indetification de claims
-
-        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-
-        //objectr principal de revendication
-
-        var principal = new ClaimsPrincipal(identity);
-
-        await httpContext.SignInAsync(principal);
-
-
-        nm.NavigateTo("/");
+       
 
 
 
